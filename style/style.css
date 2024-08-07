@@ -10,4 +10,23 @@ h1
     color: white;
 }
 
+*
+{   
+    text-align: center;
+    font-weight: 800;
+}
 
+.status, .status *
+{
+    background-color: black;
+}
+
+.extra-space
+{
+    height: 15px;
+}
+
+.status-button
+{
+    background-color: #4285F4;
+}
