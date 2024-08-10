@@ -1,14 +1,15 @@
-h1
+main
 {
-    text-align: center;
+    margin-top: 15%;
 }
-
-
 
 * {
-    background-color: #4285F4;
     color: white;
 }
+
+body {
+    background-image: url('https://images2.alphacoders.com/261/26102.jpg');
+  }
 
 *
 {   
@@ -16,17 +17,42 @@ h1
     font-weight: 800;
 }
 
-.status, .status *
+/* .status, .status *
 {
     background-color: black;
+} */
+
+.introductory-text
+{
+    width: 40%;
+    margin: auto;
+    font-size: large;
 }
 
-.extra-space
-{
-    height: 15px;
+.introductory-text-list{
+    list-style: none;
+    padding: 0;
 }
+
+/* .status{
+    width: 20%;
+    height: 6rem;
+    margin: 20px auto;
+    padding: 2%;
+}
+
+.status-heading
+{
+    margin-top: 0px;
+} */
+
 
 .status-button
 {
-    background-color: #4285F4;
+    background-color: violet;
+}
+
+.status-buttons
+{
+    margin-top: 15%;
 }
