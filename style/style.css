@@ -14,13 +14,20 @@ body
 #navigation-list
 {
     display: flex;
-    border: #12213F solid;
+    padding-bottom: .4rem;
+    border-bottom: .01rem solid;
+    gap: 2rem;
+}
+
+.logo
+{
+    margin-right: auto;
 }
 
 #navigation-list *
 {
     /* display: inline; */
-    flex: 1;
+    /* flex: 1; */
 }
 
 .titleAnchor
@@ -45,6 +52,8 @@ body
     background-color: #12213F;
     color: #0291B5;
     cursor: pointer;
+    border-radius: 10px;
+    border: none;
 }
 
 
