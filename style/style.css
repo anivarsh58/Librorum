@@ -1,26 +1,138 @@
-main
+body
 {
-    margin-top: 15%;
+    background-color: #0291B5;
+    color: #12213F;
+    text-align: center;
 }
 
-* {
-    color: white;
+#navigation-list, .introductory-text-list
+{
+    list-style-type: none;
+    padding: 0.0;
 }
 
-body {
-    background-image: url('https://images2.alphacoders.com/261/26102.jpg');
-  }
+#navigation-list
+{
+    display: flex;
+    border: #12213F solid;
+}
 
-*
+#navigation-list *
+{
+    /* display: inline; */
+    flex: 1;
+}
+
+.titleAnchor
+{
+    text-decoration: none;
+}
+
+.incentive:link {color:#12213F;}
+.incentive:visited {color:#12213F;}
+.incentive:hover {color:hsl(240, 100%, 50%);}
+.incentive:active {color:rgb(0, 0, 255);}
+
+.status
+{
+    margin-top: 1%;
+}
+
+.status-button
+{
+    height: 3.1vh;
+    width: 8.2vh;
+    background-color: #12213F;
+    color: #0291B5;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *
 {   
     text-align: center;
     font-weight: 800;
+    color: white;
 }
 
-/* .status, .status *
+nav
 {
-    background-color: black;
-} */
+    width: 100%;
+}
+
+nav *
+{
+    padding: 0px;
+
+}
+
+nav * *
+{
+    display: inline-block;
+    margin: 0%;
+    width: 20%;
+
+}
+
+main
+{
+    margin-top: 4%;
+}
+
+.titleAnchor
+{
+    text-decoration: none;
+}
+
+body {
+    /* background-image: url('https://images2.alphacoders.com/261/26102.jpg'); */
+    /* background-color: navy;
+  }
+
+
+h1
+{
+    font-size: 60px;
+}
 
 .introductory-text
 {
@@ -34,6 +146,19 @@ body {
     padding: 0;
 }
 
+.status-button
+{   
+    margin-top: 2%;
+    background-color: green;
+} */
+
+/* .status, .status *
+{
+    background-color: black;
+} */
+
+
+
 /* .status{
     width: 20%;
     height: 6rem;
@@ -45,14 +170,3 @@ body {
 {
     margin-top: 0px;
 } */
-
-
-.status-button
-{
-    background-color: violet;
-}
-
-.status-buttons
-{
-    margin-top: 15%;
-}

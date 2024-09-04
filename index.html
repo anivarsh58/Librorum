@@ -6,7 +6,11 @@
       rel="stylesheet"
     />
     <style>
-      .title {
+      body {
+        font-family: "EB Garamond";
+        font-size: 1.2rem;
+      }
+      .status-button {
         font-family: "EB Garamond";
       }
     </style>
@@ -17,20 +21,25 @@
     <title>Librorum</title>
   </head>
   <body>
+    <header>
+      <nav>
+        <ul id="navigation-list">
+          <a><li>Home</li></a>
+          <a><li>Explore</li></a>
+          <a><li>Profile</li></a>
+        </ul>
+      </nav>
+    </header>
     <main>
-      <h1 class="title">LIBRORUM</h1>
+      <a href="index.html" class="titleAnchor">
+        <div>
+          <h1 class="title-h1" style="display: inline">L</h1>
+          <h3 class="title-h3" style="display: inline">IBRORUM</h3>
+        </div>
+      </a>
       <section class="introductory-text">
-        <p style = "margin-bottom: 0.5%;">
-          Welcome to Librorum, the ultimate platform for all - established
-          bibilophiles to amateur readers.
-          <br />
-          <br />
-          Dive into a world where your reading journey takes center stage.
-          <br />
-          <br />
-        </p>
-          Whether you're looking to -
-        </p>
+        <p>Dive into a world where your reading journey takes center stage.</p>
+        <p>Here, you can -</p>
         <div>
           <ul class="introductory-text-list">
             <li>track your reading progress,</li>
@@ -38,21 +47,23 @@
             <li>connect with fellow readers;</li>
           </ul>
         </div>
-        <p>Librorum has you covered.</p>
       </section>
 
       <article>
-        <a href="https://nesslabs.com/benefits-of-reading"
+        <a
+          class="incentive"
+          href="https://nesslabs.com/benefits-of-reading"
+          rel="noopener noreferrer"
           >Why reading is good for you?</a
         >
       </article>
-      <!-- <div class="status">
-        <h3 class="status-heading">You're not logged in.</h3>
+      <div class="status">
+        <!-- <h3 class="status-heading">You're not logged in.</h3> -->
         <div class="status-buttons">
           <button class="status-button">Sign In</button>
           <button class="status-button">Sign Up</button>
         </div>
-      </div> -->
+      </div>
     </main>
   </body>
 </html>
