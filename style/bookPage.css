@@ -1,8 +1,8 @@
-#navigation-list
+.logo
 {
-    list-style-type: none;
-    padding: 0.0;
+    margin-right: auto;
 }
+
 
 #navigation-list
 {
@@ -10,9 +10,8 @@
     padding-bottom: .4rem;
     border-bottom: .01rem solid;
     gap: 2rem;
+    list-style-type: none;
+    padding: 0.0;
+    flex-wrap: wrap;
 }
 
-.logo
-{
-    margin-right: auto;
-}
