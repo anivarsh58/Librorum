@@ -5,7 +5,7 @@ html
 
 body
 {
-    background-color: #0291B5;
+    background-color: white;
     color: #12213F;
     text-align: center;
 }
@@ -22,6 +22,7 @@ body
     padding-bottom: .4rem;
     border-bottom: .01rem solid;
     gap: 2rem;
+    top: 0;
 }
 
 .logo
@@ -64,28 +65,40 @@ body
     cursor: pointer;
     border-radius: 10px;
     border: none;
+    min-height: 20.36px;
+    min-width: 53.87px;
+    
 }
 
 .samples
 {   
     margin-top: 5%;
     display: flex;
+    justify-content: center;
+    gap: 1.5rem;
     flex-wrap: wrap;
-    
 }
 
 .samples *
 {
-    flex: 1 1 0;
+    border: black solid .1px;
 }
 
 img
-{
-    height: 100%;
-    width: 80%;
-    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+{   
+    height: 12rem;
+    width: 8rem;
     vertical-align: top;
+    /* box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8); */
 }
+
+img:hover
+{
+    border: white solid 2px;
+}
+
+
+
 
 /* Not sure why working. 
 align-items:stretch could be working here. */
