@@ -5,8 +5,8 @@ html
 
 body
 {
-    background-color: white;
-    color: #12213F;
+    background-color: #212121;
+    color: #FFF;
     text-align: center;
 }
 
@@ -41,14 +41,17 @@ body
     text-decoration: none;
 }
 
-.title
-{
-    color: #1f2937;
-}
 
-.incentive:link {color:#12213F;}
-.incentive:visited {color:#12213F;}
+
+.incentive:link {color:#FFF;}
+.incentive:visited {color: #fff;}
+.logo:link {color:#FFF;}
+.logo:visited {color: #fff;}
+.titleAnchor:link {color:#FFF;}
+.titleAnchor:visited {color: #fff;}
 .incentive:hover {color:hsl(240, 100%, 50%);}
+.logo:hover {color:hsl(240, 100%, 50%);}
+.titleAnchor:hover {color:hsl(240, 100%, 50%);}
 .incentive:active {color:rgb(0, 0, 255);}
 
 .status
@@ -60,8 +63,8 @@ body
 {
     height: 3.1vh;
     width: 8.2vh;
-    background-color: #12213F;
-    color: #0291B5;
+    background-color: green;
+    color: #FFF;
     cursor: pointer;
     border-radius: 10px;
     border: none;
