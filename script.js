@@ -1,11 +1,23 @@
-let signInCard = document.createElement('div');
+let signInCard = document.createElement("div");
 
-signInCard.id = "signIn";
+    signInCard.id = "signIn";
 
-signInCard.style.height = "10rem";
-signInCard.style.height = "10rem";
+    signInCard.style.width = "21rem";
+    signInCard.style.height = "14rem";
+    signInCard.style.backgroundColor = "#F5F5F5";
+    signInCard.style.display = "none";
 
-let body = document.querySelector('body');
+    document
+      .querySelector("#sign-in")
+      .addEventListener("click", function (event) {
+        console.log("Clicked.");
+        if (signInCard.style.display == "none") {
+          console.log("Inside clicked.");
+          signInCard.style.display = "block";
+        }
+      });
 
-body.appendChild(signInCard);
+    let body = document.querySelector("body");
+
+    body.appendChild(signInCard);
 

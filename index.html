@@ -20,7 +20,6 @@
         top: 50vw;
         left: 0;
         right: 0;
-        display: none;
       }
     </style>
     <meta charset="UTF-8" />
@@ -89,24 +88,5 @@
       </div>
     </main>
   </body>
-  <script>
-    let signInCard = document.createElement("div");
-
-    signInCard.id = "signIn";
-
-    signInCard.style.width = "21rem";
-    signInCard.style.height = "14rem";
-    signInCard.style.backgroundColor = "#F5F5F5";
-
-    document.querySelector("#sign-in").addEventListener("click", function () {
-      if (signInCard.style.display == "none") {
-        console.log("Clicked.");
-        signInCard.style.display = "block";
-      }
-    });
-
-    let body = document.querySelector("body");
-
-    body.appendChild(signInCard);
-  </script>
+  <script src="./script.js"></script>
 </html>
